@@ -1,0 +1,126 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 1500px; 
+    box-sizing: border-box;/* Added to show scrolling */
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #0fe4f0;
+    overflow: hidden;
+    transition: background-color 0.5s;
+  
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    padding: 14px 20px;
+}
+
+.navbar a {
+    color: rgb(19, 18, 18);
+    text-decoration: none;
+    display: block;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #ff0000;
+}
+
+.content {
+    margin-top: 60px; /* To avoid content hiding behind the fixed navbar */
+    padding: 20px;
+    display: flexbox;
+    /* justify-content: center; */
+    text-align: center;
+    
+}
+
+.scrolled {
+    background-color: #08fbfb;
+}
+
+
+.no-disc{
+    list-style: none;
+}
+.service__list {
+    flex: 1;
+    text-align: center;
+    padding-right: 6em;
+    list-style: none;
+    
+}
+.service__content{
+list-style: none;
+
+}
+.service__list ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 60px;
+}
+
+.service__list li {
+    margin-bottom: 0.5em;
+    list-style-type: none;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-group {
+    margin-bottom: 1em;
+    width: 100%;
+    max-width: 400px;
+    color: rgb(5, 5, 5);
+}
+label {
+    margin-bottom: 0.5em;
+    display: contents;
+}
+
+input {
+    padding: 0.5em;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: auto;
+}
+
+.footer-upper
+.container{
+    display: flex;
+    justify-content: center;
+    color: rgb(5, 3, 3);
+}
+.footer-upper h4{
+   padding-bottom:  10px; 
+   border-bottom: 2px solid rgb(49, 29, 179);
+   margin-bottom: 10px;
+}
+
+.footer-lower{
+    position: relative;
+    background-color: #0fe4f0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    color: rgb(236, 0, 0);
+    
+}
